@@ -1,0 +1,62 @@
+
+      body,
+      html {
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+      }
+
+      .hero-image {
+        background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.1)), url("img/tenordawf.gif");
+        height: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+      }
+
+      .hero-text {
+        text-align: left;
+        position: absolute;
+        top: 15%;
+        left : 45%;
+        transform: translate(-30%, -50%);
+        color: rgb(183, 210, 240);
+      }
+
+      .hero-text2 {
+        text-align: left;
+        position: absolute;
+        top:38%;
+        right: 20%;
+      }
+
+      .warning {
+        border-color: #ff9800;
+        color: orange;
+      }
+
+      .warning:hover {
+        background: #ff9800;
+        color: white;
+        transition: 1s;
+      }
+
+      .hero-text3 {
+        text-align: left;
+        position: absolute;
+        top:38%;
+        right: 70%;
+      }
+
+      .danger {
+        border-color: #ff6c61;
+        color: #ff6c61;
+      }
+      
+      .danger:hover {
+        background: #ff6c61;
+        color: white;
+        transition: 1s;
+      }
